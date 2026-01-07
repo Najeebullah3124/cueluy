@@ -33,7 +33,9 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight"
         >
-          AI for Meetings
+          Your invisible AI copilot
+          <br />
+          <span className="text-gradient-cyan">for live conversations</span>
         </motion.h1>
 
         <motion.p
@@ -42,8 +44,8 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Cluely takes perfect meeting notes and gives real-time answers,
-          all while completely undetectable
+          Know exactly what to say — while the meeting is happening.
+          Real-time intelligence for meetings, interviews, and calls.
         </motion.p>
 
         <motion.div
